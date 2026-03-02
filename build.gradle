@@ -22,10 +22,10 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"modid" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
+		"espmod" {
+    sourceSet sourceSets.main
+    sourceSet sourceSets.client
+}
 	}
 
 }
